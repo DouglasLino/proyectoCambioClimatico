@@ -1,36 +1,74 @@
 body {
-  font-family: "Roboto", "Trebuchet MS", sans-serif;
-  margin: 0;
+  font-family: sans-serif;
+  background-color: #111d4a;
 }
 
-main {
-  width: 70%;
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: #eee;
+  margin-bottom: 30px;
+}
+.container {
+  padding: 40px;
   margin: 0 auto;
-  padding-top: 30px;
-}
-
-header {
-  width: 100%;
+  max-width: 1000px;
   text-align: center;
-  background-color: #444444;
-  color: white;
-  height: 150px;
 }
 
-h2 {
+#charactersList {
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+
+.character {
+  list-style-type: none;
+  background-color: #eaeaea;
+  border-radius: 3px;
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas:
+      'name image'
+      'house image';
+  text-align: left;
+}
+
+.character > h2 {
+  grid-area: name;
+  margin-bottom: 0px;
+}
+
+.character > p {
+  grid-area: house;
   margin: 0;
-  line-height: 150px;
-  font-size: 50px;
+  margin-top: -18px;
 }
 
-.title {
-  color: #E5E55B;
+.character > img {
+  max-height: 100px;
+  grid-area: image;
 }
 
-a {
-  color: #5a86d5;
+#searchBar {
+  width: 100%;
+  height: 32px;
+  border-radius: 3px;
+  border: 1px solid #eaeaea;
+  padding: 5px 10px;
+  font-size: 12px;
 }
 
-a:hover {
-  color: #83aaf0;
+#searchWrapper {
+  position: relative;
+}
+
+#searchWrapper::after {
+  content: '🔍';
+  position: absolute;
+  top: 7px;
+  right: 15px;
 }
