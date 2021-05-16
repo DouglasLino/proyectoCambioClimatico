@@ -8,6 +8,14 @@ app.get('/', function(req,res) {
   res.sendfile('public/index.html');
 });
 
+app.get('/region_hidrografica/:id', function(req,res) {
+  res.sendfile('public/region_hidrografica.html');
+});
+
+app.get('/region_hidrografica', function(req,res) {
+  res.sendfile('public/index.html');
+});
+
 app.get('/api/region_hidrografica', function(req, res){
   fs.readFile(CHARACTERS_JSON, function(err, data){
     if(err) process.exit(1);
@@ -30,7 +38,22 @@ app.get('/api/region_hidrografica', function(req, res){
 //     res.json(students_array);
 //   })
 // })
-
+app.get('/api/region_hidrografica/:id', function(req, res){
+  fs.readFile(CHARACTERS_JSON, function(err, data){
+    if(err) process.exit(1);
+    json = JSON.parse(data);
+    region_hidrografica_array = [];
+    for(character of json){
+      if(character.id == req.params.id){
+        region_hidrografica_array.push(character);
+      }
+    }
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.json(region_hidrografica_array);
+    // console.log(region_hidrografica_array);
+  })
+  // res.sendfile('public/region_hidrografica.html');
+});
 
 
 

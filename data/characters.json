@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "nombre": "Río Grande de Sonsonate",
     "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
     "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica D, no cumplen con las características de calidad de agua para este uso, debido a valores fuera de rango, principalmente, para los parámetros de:  Coliformes fecales se encuentran dentro de un rango de 70000 a los 920000 de bacterias/100 ml, siendo el valor guía 2000 NMP/100 ml; Fósforo total en el rango de 1.65 a 7.93 mg/L, siendo el valor guía menor a 0.15 mg/L; Arsénico en el rango de 0.026 a 0.044 mg/L, siendo el valor guía menor de 0.01 mg/L; Fenoles en el rango de 0.07 a 0.18 mg/L, siendo el valor guía menor o igual a 0.01 mg/L.    Y, en menor proporción, el incumplimiento de los parámetros de Sólidos disueltos totales, DBO5 y Oxígeno disuelto con las guías de calidad de agua.",
@@ -8,6 +9,7 @@
     "imagen": "images/rio.jpeg"
   },
   {
+    "id": 2,
     "nombre": "Mandinga — Comalapa",
     "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
     "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica E, no cumplen con las características de calidad de agua para este uso, debido a valores fuera de rango, principalmente para los parámetros de:     Coliformes fecales se encuentran dentro de un rango que va de los 2200 a los 7.9 millones de bacterias/100 ml, siendo el valor guía 2000 NMP/100 ml; Fósforo total en el rango de 1.34 a 15.56 mg/L, siendo el valor guía menor a 0.15 mg/L; Arsénico en el rango de 0.015 a 0.034 mg/L, siendo el valor guía de 0.01 mg/L; Fenoles en el rango de 0.04 a 0.24 mg/L, siendo el valor guía de 0.01 mg/L.     Y en menor grado, valores fuera de las guías de calidad de agua para los parámetros de DBO5, Nitrógeno amoniacal y Sólidos disueltos totales.",

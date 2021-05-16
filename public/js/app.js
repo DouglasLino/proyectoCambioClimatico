@@ -18,7 +18,7 @@ searchBar.addEventListener('keyup', (e) => {
 const loadCharacters = async () => {
     try {
         // const res = await fetch('https://hp-api.herokuapp.com/api/characters');
-        const res = await fetch('http://localhost:5000/api/region_hidrografica');
+        const res = await fetch('https://apicambioclimatico.herokuapp.com/api/region_hidrografica');
         hpCharacters = await res.json();
         displayCharacters(hpCharacters);
     } catch (err) {
@@ -30,7 +30,10 @@ const displayCharacters = (regiones) => {
     const htmlString = regiones
         .map((region) => {
             return `
-            <li class="character">
+            <li class="character" onClick="
+                localStorage.setItem('id', '${region.id}');
+                location.href='region_hidrografica.html'
+            ">
                 <h2>${region.nombre}</h2>
                 <img src="${region.imagen}"></img>
             </li>
@@ -41,3 +44,10 @@ const displayCharacters = (regiones) => {
 };
 
 loadCharacters();
+
+function aber(){
+    localStorage.setItem('id', '${region.id}');
+    // location.href='region_hidrografica/${region.id}'
+    var cat = localStorage.getItem('id');
+    console.log(cat);
+}
