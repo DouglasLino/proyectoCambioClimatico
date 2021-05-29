@@ -15,35 +15,39 @@ var total = url.concat(id);
 const displayCuenca = (cuenca_hidrografica) => {
     const htmlString = cuenca_hidrografica
         .map((region) => {
+            return `
+            <li class="character"" >
+                <h2>${region.nombre}</h2></br>
+                <p>${region.agua_cruda_titulo}</p>
+                <img src="${region.imagen}"></img>
+            </li>
+        `;
+        })
+        .join('');
+
+        const htmlTabla = cuenca_hidrografica
+        .map((region) => {
             switch(id) {
                 case '1':
                     return `
-                    <li class="character"" >
-                        <h2>${region.nombre}</h2></br>
-                        <p>${region.agua_cruda_titulo}</p>
-                        <img src="${region.imagen}"></img>
-                    </li>
                     <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/text.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
-                    `
+                    `;
                   break;
                 case '2':
                     return `
-                    <li class="character"" >
-                        <h2>${region.nombre}</h2></br>
-                        <p>${region.agua_cruda_titulo}</p>
-                        <img src="${region.imagen}"></img>
-                    </li>    `
+                    <h1> Muestra la otra tabla </h1>
+                    `;
                   break;
                 default:
                     return `
-                    <li class="character"" >
-                        <h2>Error</h2></br>
-                    </li>    `
+                    <h1> Error, no se pudo cargar la tabla:( </h1>
+                    `;
               }
-            ;
+            
         })
         .join('');
     regionHidrografica.innerHTML = htmlString;
+    tabla.innerHTML = htmlTabla;
 };
 
 const loadRegionHidrografica = async () => {
