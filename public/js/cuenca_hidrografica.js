@@ -2,8 +2,8 @@
 const regionHidrografica = document.getElementById('regionHidrografica');
 let cuenca = [];
 var id = localStorage.getItem('id');
-// var url = 'https://apicambioclimatico.herokuapp.com/api/region_hidrografica/';
-var url = 'http://localhost:5000/api/region_hidrografica/';
+var url = 'https://apicambioclimatico.herokuapp.com/api/region_hidrografica/';
+// var url = 'http://localhost:5000/api/region_hidrografica/';
 var total = url.concat(id);
 
 
@@ -57,7 +57,7 @@ const displayCuenca = (cuenca_hidrografica) => {
             switch(id) {
                 case '1':
                     return `
-                    <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/text.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
+                    <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/rio_lempa.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
                     `;
                   break;
                 case '2':

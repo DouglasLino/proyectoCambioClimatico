@@ -17,8 +17,8 @@ searchBar.addEventListener('keyup', (e) => {
 
 const loadCharacters = async () => {
     try {
-        // const res = await fetch('https://apicambioclimatico.herokuapp.com/api/region_hidrografica');
-        const res = await fetch('http://localhost:5000/api/region_hidrografica');
+        const res = await fetch('https://apicambioclimatico.herokuapp.com/api/region_hidrografica');
+        // const res = await fetch('http://localhost:5000/api/region_hidrografica');
         hpCharacters = await res.json();
         displayCharacters(hpCharacters);
     } catch (err) {
