@@ -38,16 +38,30 @@ const displayCuenca = (cuenca_hidrografica) => {
                 <h2 class="section-heading">${region.agua_CCME_titulo}</h2>
                 <p>${region.agua_CCME_descripcion}</p>
 
-                <div><img class="img-fluid p-2" src="${region.imagen}"></img></div>
+                <div><img class="img-fluid p-2" src="${region.imagen_1}"></img></div>
 
         `;
         })
         .join('');
 
-    const htmNombrerio = cuenca_hidrografica
+    const htmlheader = cuenca_hidrografica
         .map((region) => {
             return `
-                <h1>${region.nombre}</h2>
+
+           
+            <header class="masthead" style="background-image: url('${region.imagen_card}')">
+               <div class="container position-relative px-4 px-lg-5">
+                   <div class="row gx-4 gx-lg-5 justify-content-center">
+                       <div class="col-md-9 col-lg-9 col-xl-9">
+                           <div class="post-heading col-auto text-center">
+                               <h1>${region.nombre}</h1>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </header>
+
+                
         `;
         })
         .join('');
@@ -58,6 +72,9 @@ const displayCuenca = (cuenca_hidrografica) => {
                 case '1':
                     return `
                     <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/rio_lempa.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
+
+                    <h2 class="section-heading">Ubicación</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.4067791325783!2d-89.37579022277534!3d13.510609995644835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDMwJzM4LjIiTiA4OcKwMjInMjcuNSJX!5e0!3m2!1ses-419!2ssv!4v1622349849399!5m2!1ses-419!2ssv" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     `;
                   break;
                 case '2':
@@ -75,7 +92,7 @@ const displayCuenca = (cuenca_hidrografica) => {
         .join('');
     regionHidrografica.innerHTML = htmlString;
     tabla.innerHTML = htmlTabla;
-    nombrerio.innerHTML = htmNombrerio;
+    header.innerHTML = htmlheader;
 };
 
 const loadRegionHidrografica = async () => {

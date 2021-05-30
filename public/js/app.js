@@ -51,7 +51,7 @@ const displayCharacters = (regiones) => {
 
         <div class="col mb-4">
             <div class="card" onClick="      localStorage.setItem('id', '${region.id}');         location.href='region_hidrografica.html'">
-              <img src="${region.imagen}" class="card-img-top" alt="...">
+              <img src="${region.imagen_card}" class="card-img-top" >
               <div class="card-body">
                 <h5 class="card-title">${region.nombre}</h5>
                 <p class="card-text" >${region.descripcion_card}</p>
