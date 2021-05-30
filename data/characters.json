@@ -2,15 +2,56 @@
   {
     "id": 1,
     "nombre": "Río Grande de Sonsonate",
+    "descripcion_card": "Situada en la Llanura Costera y se desplaza más de 30 kilómetros de la línea de costa hacia las estribaciones de la Cordillera Central.",
+    "descripcion":"Esta zona está situada en la Llanura Costera y se desplaza más de 30 kilómetros de la línea de costa hacia las estribaciones de la Cordillera Central. Está flanqueada por las elevaciones de la Cadena Costera, y limitada al sur por el Océano Pacífico en una extensión de más de 32 kilómetros. Comprende parte de los municipios de Acajutia, Santo Domingo, San Antonio del Monte, Izalco, Nahuizalco, Caluco, Cuisnahuat e Ishuatán, y todo el municipio de Sonsonate y Nahuilingo, del departamento de Sonsonate.",
+    "descripcion_tabla":"A continuación, se muestra los resultados de la evaluación de calidad del agua para 57 sitios evaluados en la Región Hidrográfica A: Río Lempa.",
+    
     "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
     "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica D, no cumplen con las características de calidad de agua para este uso, debido a valores fuera de rango, principalmente, para los parámetros de:  Coliformes fecales se encuentran dentro de un rango de 70000 a los 920000 de bacterias/100 ml, siendo el valor guía 2000 NMP/100 ml; Fósforo total en el rango de 1.65 a 7.93 mg/L, siendo el valor guía menor a 0.15 mg/L; Arsénico en el rango de 0.026 a 0.044 mg/L, siendo el valor guía menor de 0.01 mg/L; Fenoles en el rango de 0.07 a 0.18 mg/L, siendo el valor guía menor o igual a 0.01 mg/L.    Y, en menor proporción, el incumplimiento de los parámetros de Sólidos disueltos totales, DBO5 y Oxígeno disuelto con las guías de calidad de agua.",
-    "agua_riesgo_titulo": "Agua para riego sin restricciones",
-    "agua_riesgo_descripcion": "De los ocho sitios evaluados ninguno cumple con las características necesarias para calidad de agua para riego sin restricciones, debido a valores fuera de rango, principalmente, para los parámetros de:     Coliformes fecales los cuales varían en un rango de los 1300 a los 920000 de bacterias/100 ml, siendo el valor guía 1000 NMP/100 ml; Bicarbonatos en el rango de 96.95 a 197.86 mg/L, siendo el valor guía de 91.53 mg/L; Nitratos en el rango de 6.94 a 18.75 mg/L, siendo el valor guía menor de 5 mg/L.    Y, en menor proporción, el incumplimiento de los valores guías para los parámetros de pH y Sólidos disueltos totales.",
+    
+    "agua_riego_titulo": "Agua para riego sin restricciones",
+    "agua_riego_descripcion": "De los ocho sitios evaluados ninguno cumple con las características necesarias para calidad de agua para riego sin restricciones, debido a valores fuera de rango, principalmente, para los parámetros de:     Coliformes fecales los cuales varían en un rango de los 1300 a los 920000 de bacterias/100 ml, siendo el valor guía 1000 NMP/100 ml; Bicarbonatos en el rango de 96.95 a 197.86 mg/L, siendo el valor guía de 91.53 mg/L; Nitratos en el rango de 6.94 a 18.75 mg/L, siendo el valor guía menor de 5 mg/L.    Y, en menor proporción, el incumplimiento de los valores guías para los parámetros de pH y Sólidos disueltos totales.",
+    
+    "agua_consumo_titulo": "Agua para consumo de especies de producción animal",
+    "agua_consumo_descripcion": "De los 57 sitios evaluados en la Región Hidrográfica del Río Lempa, solamente 12 sitios, no cumplen con las características de calidad de agua para este uso, debido a valores fuera de rango para los parámetros de Manganeso, en el rango de 0.052 a 0.505 mg/L, siendo el valor guía de 0.05 mg/L y, Mercurio en el rango de 0.0134 a 0.1605 mg/L, siendo el valor guía 0.01.",
+    
+    "agua_recreativas_titulo": "Agua para actividades recreativas con contacto directo",
+    "agua_recreativas_descripcion": "De los 57 sitios evaluados en la Región Hidrográfica del Río Lempa, solamente tres sitios cumplen con las características de calidad de agua para este uso.  Los restantes 54 sitios que no cumplen es debido a valores fuera de rango para los parámetros de:  Coliformes fecales, los cuales se encuentran dentro de un rango que va de los 220 a los 240 millones de bacterias/100 ml, siendo el valor guía 200 NMP/100 ml, Aceites y Grasas en el rango de 5.17 a 27 mg/L, siendo el valor guía de 5 mg/L; Oxígeno disuelto en el rango de 0.08 a 4.96 mg/L, siendo el valor mínimo de 5 mg/L; pH de 9.38 unidades, siendo el valor guía máximo de 9 unidades y Turbiedad 122.5 UNT, siendo el valor guía de 50 UNT.",
+    
+    
+    "agua_CCME_titulo": "Calidad de agua valorada a través del Índice CCME — WQI",
+    "agua_CCME_descripcion": "De los sitios evaluados en la Región Hidrográfica A: Río Lempa, 18 sitios presentan una calidad de agua “regular”, que limita el desarrollo de vida acuática, 33 presentan calidad de agua “mala”, que restringe el desarrollo de vida acuática y seis sitios presentan calidad de agua “pésima”, que imposibilita el desarrollo de vida acuática.",
+    
     "imagen": "images/rio.jpeg"
   },
   {
     "id": 2,
     "nombre": "Mandinga — Comalapa",
+    "descripcion_card": "Situada en la Llanura Costera y se desplaza más de 30 kilómetros de la línea de costa hacia las estribaciones de la Cordillera Central.",
+
+    "descripcion":"Esta zona está situada en la Llanura Costera y se desplaza más de 30 kilómetros de la línea de costa hacia las estribaciones de la Cordillera Central. Está flanqueada por las elevaciones de la Cadena Costera, y limitada al sur por el Océano Pacífico en una extensión de más de 32 kilómetros. Comprende parte de los municipios de Acajutia, Santo Domingo, San Antonio del Monte, Izalco, Nahuizalco, Caluco, Cuisnahuat e Ishuatán, y todo el municipio de Sonsonate y Nahuilingo, del departamento de Sonsonate.",
+    "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
+    "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica E, no cumplen con las características de calidad de agua para este uso, debido a valores fuera de rango, principalmente para los parámetros de:     Coliformes fecales se encuentran dentro de un rango que va de los 2200 a los 7.9 millones de bacterias/100 ml, siendo el valor guía 2000 NMP/100 ml; Fósforo total en el rango de 1.34 a 15.56 mg/L, siendo el valor guía menor a 0.15 mg/L; Arsénico en el rango de 0.015 a 0.034 mg/L, siendo el valor guía de 0.01 mg/L; Fenoles en el rango de 0.04 a 0.24 mg/L, siendo el valor guía de 0.01 mg/L.     Y en menor grado, valores fuera de las guías de calidad de agua para los parámetros de DBO5, Nitrógeno amoniacal y Sólidos disueltos totales.",
+    "agua_riesgo_titulo": "Agua para riego sin restricciones",
+    "agua_riesgo_descripcion": "De los sitios evaluados ninguno cumple con las características necesarias para calidad de agua para riego sin restricciones, debido a valores fuera de rango, principalmente, para los parámetros de:     Coliformes fecales se encuentran dentro de un rango que va de los 1300 a los 7.9 millones de bacterias/100 ml, siendo el valor guía 1000 NMP/100 ml; Bicarbonatos en el rango de 92.79 a 211.71 mg/L, siendo el valor guía de 91.53 mg/L.     Y, en menor frecuencia, valores fuera de rango de las guías de calidad de agua para Nitratos, Sólidos Disueltos totales, Conductividad eléctrica y Cloruros.",
+    "imagen": "images/rio.jpeg"
+  },
+  {
+    "id": 3,
+    "nombre": "Mandinga — Comalapa",
+    "descripcion_card": "Situada en la Llanura Costera y se desplaza más de 30 kilómetros de la línea de costa hacia las estribaciones de la Cordillera Central.",
+    "descripcion":"Esta zona está situada en la Llanura Costera y se desplaza más de 30 kilómetros de la línea de costa hacia las estribaciones de la Cordillera Central. Está flanqueada por las elevaciones de la Cadena Costera, y limitada al sur por el Océano Pacífico en una extensión de más de 32 kilómetros. Comprende parte de los municipios de Acajutia, Santo Domingo, San Antonio del Monte, Izalco, Nahuizalco, Caluco, Cuisnahuat e Ishuatán, y todo el municipio de Sonsonate y Nahuilingo, del departamento de Sonsonate.",
+    "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
+    "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica E, no cumplen con las características de calidad de agua para este uso, debido a valores fuera de rango, principalmente para los parámetros de:     Coliformes fecales se encuentran dentro de un rango que va de los 2200 a los 7.9 millones de bacterias/100 ml, siendo el valor guía 2000 NMP/100 ml; Fósforo total en el rango de 1.34 a 15.56 mg/L, siendo el valor guía menor a 0.15 mg/L; Arsénico en el rango de 0.015 a 0.034 mg/L, siendo el valor guía de 0.01 mg/L; Fenoles en el rango de 0.04 a 0.24 mg/L, siendo el valor guía de 0.01 mg/L.     Y en menor grado, valores fuera de las guías de calidad de agua para los parámetros de DBO5, Nitrógeno amoniacal y Sólidos disueltos totales.",
+    "agua_riesgo_titulo": "Agua para riego sin restricciones",
+    "agua_riesgo_descripcion": "De los sitios evaluados ninguno cumple con las características necesarias para calidad de agua para riego sin restricciones, debido a valores fuera de rango, principalmente, para los parámetros de:     Coliformes fecales se encuentran dentro de un rango que va de los 1300 a los 7.9 millones de bacterias/100 ml, siendo el valor guía 1000 NMP/100 ml; Bicarbonatos en el rango de 92.79 a 211.71 mg/L, siendo el valor guía de 91.53 mg/L.     Y, en menor frecuencia, valores fuera de rango de las guías de calidad de agua para Nitratos, Sólidos Disueltos totales, Conductividad eléctrica y Cloruros.",
+    "imagen": "images/rio.jpeg"
+  },
+  {
+    "id": 4,
+    "nombre": "Mandinga — Comalapa",
+    "descripcion_card": "Situada en la Llanura Costera y se desplaza más de 30 kilómetros de la línea de costa hacia las estribaciones de la Cordillera Central.",
+    "descripcion":"Esta zona está situada en la Llanura Costera y se desplaza más de 30 kilómetros de la línea de costa hacia las estribaciones de la Cordillera Central. Está flanqueada por las elevaciones de la Cadena Costera, y limitada al sur por el Océano Pacífico en una extensión de más de 32 kilómetros. Comprende parte de los municipios de Acajutia, Santo Domingo, San Antonio del Monte, Izalco, Nahuizalco, Caluco, Cuisnahuat e Ishuatán, y todo el municipio de Sonsonate y Nahuilingo, del departamento de Sonsonate.",
     "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
     "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica E, no cumplen con las características de calidad de agua para este uso, debido a valores fuera de rango, principalmente para los parámetros de:     Coliformes fecales se encuentran dentro de un rango que va de los 2200 a los 7.9 millones de bacterias/100 ml, siendo el valor guía 2000 NMP/100 ml; Fósforo total en el rango de 1.34 a 15.56 mg/L, siendo el valor guía menor a 0.15 mg/L; Arsénico en el rango de 0.015 a 0.034 mg/L, siendo el valor guía de 0.01 mg/L; Fenoles en el rango de 0.04 a 0.24 mg/L, siendo el valor guía de 0.01 mg/L.     Y en menor grado, valores fuera de las guías de calidad de agua para los parámetros de DBO5, Nitrógeno amoniacal y Sólidos disueltos totales.",
     "agua_riesgo_titulo": "Agua para riego sin restricciones",

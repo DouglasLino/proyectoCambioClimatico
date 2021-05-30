@@ -26,17 +26,41 @@ const loadCharacters = async () => {
     }
 };
 
+// const displayCharacters = (regiones) => {
+//     const htmlString = regiones
+//         .map((region) => {
+//             return `
+//             <li class="character" onClick="
+//                 localStorage.setItem('id', '${region.id}');
+//                 location.href='region_hidrografica.html'
+//             ">
+//                 <h2>${region.nombre}</h2>
+//                 <img src="${region.imagen}"></img>
+//             </li>
+//         `;
+//         })
+//         .join('');
+//     charactersList.innerHTML = htmlString;
+// };
+
 const displayCharacters = (regiones) => {
     const htmlString = regiones
         .map((region) => {
+            
             return `
-            <li class="character" onClick="
-                localStorage.setItem('id', '${region.id}');
-                location.href='region_hidrografica.html'
-            ">
-                <h2>${region.nombre}</h2>
-                <img src="${region.imagen}"></img>
-            </li>
+
+        <div class="col mb-4">
+            <div class="card" onClick="      localStorage.setItem('id', '${region.id}');         location.href='region_hidrografica.html'">
+              <img src="${region.imagen}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">${region.nombre}</h5>
+                <p class="card-text" >${region.descripcion_card}</p>
+              </div>
+            </div>
+          </div>
+
+        
+            
         `;
         })
         .join('');

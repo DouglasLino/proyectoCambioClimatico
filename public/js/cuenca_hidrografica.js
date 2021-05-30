@@ -13,14 +13,41 @@ var total = url.concat(id);
 
 
 const displayCuenca = (cuenca_hidrografica) => {
+    
     const htmlString = cuenca_hidrografica
         .map((region) => {
             return `
-            <li class="character"" >
-                <h2>${region.nombre}</h2></br>
-                <p>${region.agua_cruda_titulo}</p>
-                <img src="${region.imagen}"></img>
-            </li>
+                <p>${region.descripcion}</p>
+
+                <h2 class="section-heading">Calidad de agua del ${region.nombre}</h2>
+                <p>${region.descripcion_tabla}</p>
+                <div id="tabla"></div>
+
+                <h2 class="section-heading">${region.agua_cruda_titulo}</h2>
+                <p>${region.agua_cruda_descripcion}</p>
+
+                <h2 class="section-heading">${region.agua_riego_titulo}</h2>
+                <p>${region.agua_riego_descripcion}</p>
+
+                <h2 class="section-heading">${region.agua_consumo_titulo}</h2>
+                <p>${region.agua_consumo_descripcion}</p>
+
+                <h2 class="section-heading">${region.agua_recreativas_titulo}</h2>
+                <p>${region.agua_recreativas_descripcion}</p>
+
+                <h2 class="section-heading">${region.agua_CCME_titulo}</h2>
+                <p>${region.agua_CCME_descripcion}</p>
+
+                <div><img class="img-fluid p-2" src="${region.imagen}"></img></div>
+
+        `;
+        })
+        .join('');
+
+    const htmNombrerio = cuenca_hidrografica
+        .map((region) => {
+            return `
+                <h1>${region.nombre}</h2>
         `;
         })
         .join('');
@@ -48,6 +75,7 @@ const displayCuenca = (cuenca_hidrografica) => {
         .join('');
     regionHidrografica.innerHTML = htmlString;
     tabla.innerHTML = htmlTabla;
+    nombrerio.innerHTML = htmNombrerio;
 };
 
 const loadRegionHidrografica = async () => {

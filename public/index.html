@@ -1,13 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Document</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Watershed Finder</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
     </head>
     <body>
+        <!-- Header-->
+        <header class="masthead  align-items-center">
+            <div class="container px-5 inicio align-items-center">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6 ">
+                        <div class="text-center my-5">
+                            <p class="lead text-white-50 mb-1">El Salvador</p>
+                            <h1 class="display-5 fw-bolder text-white mb-2">Watershed Finder</h1>
+                            <p class="lead text-white-50 mb-4">calidad de agua de los ríos</p>
+                            <div class="d-grid d-sm-flex justify-content-sm-center">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#cuencuas">iniciar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- rios section-->
+        <section class="py-5 border-bottom" id="cuencuas">
+            <div class="container px-5 my-5 px-5">
+
+                <!-- foto -->
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Buscador de ríos de El Salvador</h2>
+                    <p class="lead mb-0">En base al informe de calidad de agua de los ríos de El Salvador. Año 2020. </p>
+                </div>
+                <!-- Buscador -->
+                <!-- <div id="searchWrapper">
+                    <input
+                        type="text"
+                        name="searchBar"
+                        id="searchBar"
+                        placeholder="search for a character"
+                    />
+                </div> -->
+                <div class="input-group mb-4 border rounded-pill p-1">
+                    <input type="search" placeholder="nombre del rio" aria-describedby="button-addon3" class="form-control bg-none border-0" id="searchBar">
+                    <div class="input-group-append border-0">
+                      <button id="button-addon3" type="button" class="btn btn-link text-success"><i class="fa fa-search"></i></button>
+                    </div>
+                  </div>
+
+                <!-- Texto -->
+                <div class="row row-cols-1 row-cols-md-2" id="charactersList">
+                    
+                </div>
+
+            </div>
+        </section>
+
+<!-- 
         <div class="container">
             <h1>Watershed Finder</h1>
             <div id="searchWrapper">
@@ -19,7 +80,31 @@
                 />
             </div>
             <ul id="charactersList"></ul>
-        </div>
+        </div> 
+    -->
+
+
+        <!-- Contact section-->
+        <section class="bg-light py-5">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Descripción y propósito</h2>
+                    <p class="lead mb-0">La página web se basará en las Cuencas Hidrográficas de El Salvador, en la cual los usuarios podrán buscar cualquier cuenca del país y se les brindara los datos de la calidad del agua y condiciones de esta, además de una imagen representativa del lugar. Tomamos como referencia el “Informe del MARN sobre la calidad del agua” ya que a veces resulta para las personas algo difícil o no tan fácil buscar enun PDF la información, en nuestra página tendrán un acceso más fácil a la información sobre la calidad del agua y condiciones de las cuencas. Además, de que será interactiva con el usuario, fácil de utilizar y eficiente a la hora de búsqueda correspondiente. Las Cuencas Hidrográficas se buscarán de acuerdo con el nombre para que el usuario pueda aprender e investigar acerca de la fuentes acuíferas que se tiene en el país.</p>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Wathersed Finder 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
         <script src="js/app.js"></script>
     </body>
+
 </html>
