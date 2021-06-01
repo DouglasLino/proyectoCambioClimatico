@@ -38,7 +38,7 @@ const displayCuenca = (cuenca_hidrografica) => {
                 <h2 class="section-heading">${region.agua_CCME_titulo}</h2>
                 <p>${region.agua_CCME_descripcion}</p>
 
-                <div><img class="img-fluid p-2" src="${region.imagen_1}"></img></div>
+                <div container><img class="img-fluid p-2 mx-auto d-block" style="width:60%" src="${region.imagen_1}"></img></div>
 
         `;
         })
@@ -74,12 +74,63 @@ const displayCuenca = (cuenca_hidrografica) => {
                     <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/rio_lempa.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
 
                     <h2 class="section-heading">Ubicación</h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.4067791325783!2d-89.37579022277534!3d13.510609995644835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDMwJzM4LjIiTiA4OcKwMjInMjcuNSJX!5e0!3m2!1ses-419!2ssv!4v1622349849399!5m2!1ses-419!2ssv" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    `;
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3872.3079275446944!2d-88.95065204954116!3d13.940261990177737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDU2JzI0LjkiTiA4OMKwNTYnNTQuNSJX!5e0!3m2!1ses-419!2ssv!4v1622584707897!5m2!1ses-419!2ssv" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                    `;
                   break;
                 case '2':
                     return `
-                    <h1> Muestra la otra tabla </h1>
+                    <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/rio_paz.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
+
+                    <h2 class="section-heading">Ubicación</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d968.0150378852259!2d-90.00082885052704!3d13.955024098933015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDU3JzE4LjQiTiA5MMKwMDAnMDEuNiJX!5e0!3m2!1ses-419!2ssv!4v1622584141999!5m2!1ses-419!2ssv" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    `;
+                  break;
+                case '3':
+                    return `
+                    `;
+                  break;
+                case '4':
+                    return `
+                    <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/rio_grande_sonsonate.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
+                    
+                    <h2 class="section-heading">Ubicación</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.4067791325783!2d-89.37579022277534!3d13.510609995644835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDMwJzM4LjIiTiA4OcKwMjInMjcuNSJX!5e0!3m2!1ses-419!2ssv!4v1622349849399!5m2!1ses-419!2ssv" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                    `;
+                  break;
+                case '5':
+                    return `
+                    `;
+                  break;
+                case '6':
+                    return `
+                    <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/rio_jiboa_estero_jaltepeque.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
+
+                    <h2 class="section-heading">Ubicación</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1940.3504963571545!2d-89.02617860386871!3d13.430825998030066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDI1JzUxLjAiTiA4OcKwMDEnMzAuNiJX!5e0!3m2!1ses-419!2ssv!4v1622584772879!5m2!1ses-419!2ssv" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    `;
+                  break;
+                case '7':
+                    return `
+                    `;
+                  break;
+                case '8':
+                    return `
+                    <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/rio_grande_san_miguel.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
+                    
+                    <h2 class="section-heading">Ubicación</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1941.3658981600788!2d-88.25024717311436!3d13.304687143714606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDE4JzE1LjEiTiA4OMKwMTQnNTYuNyJX!5e0!3m2!1ses-419!2ssv!4v1622584866529!5m2!1ses-419!2ssv" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    `;
+                  break;
+                case '9':
+                    return `
+                    `;
+                  break;
+                case '10':
+                    return `
+                    <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/rio_goascoran.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
+
+                    <h2 class="section-heading">Ubicación</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.413499667698!2d-87.75102490208542!3d13.693387995021745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQxJzM2LjIiTiA4N8KwNDQnNTguMCJX!5e0!3m2!1ses-419!2ssv!4v1622584975040!5m2!1ses-419!2ssv" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     `;
                   break;
                 default:

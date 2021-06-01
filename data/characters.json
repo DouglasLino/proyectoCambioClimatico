@@ -24,6 +24,135 @@
     
     "imagen_card": "images/rio_lempa/rio_lempa_card.jpg",
     "imagen_1": "images/rio_lempa/rio_lempa_1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Río Paz",
+    "descripcion_card": "El Río Paz es un río que nace en las montañas de Quesada (cerca del volcán Amayo), al noroeste del departamento de Jutiapa, Guatemala.",
+    "descripcion": "El Río Paz tiene una longitud de 133.80 kilómetros y una cuenca con un área de 1732 kilómetros cuadrados, desemboca en el Océano Pacífico y sirve de línea divisoria entre Guatemala y la República de El Salvador",
+    "descripcion_tabla":"A continuación, se muestra los resultados de la evaluación de calidad del agua para sitios evaluados en la Región Hidrográfica A: Río Paz .",
+    
+    "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
+    "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica del Río Paz, no cumple con las características de calidad de agua para este uso, debido a valores fuera de rango, principalmente, para los parámetros de: En el caso de Fósforo total, en el rango de 1.19 a 4.74 mg/L, siendo el valor guía menor a 0.15 mg/L; Coliformes fecales, dentro de un rango que va de los 3500 a los 14000 bacterias/100 ml, siendo el valor guía 2000 NMP/100 ml; Fenoles en el rango de 0.04 mg/L a 0.24 mg/L, siendo el valor guía de 0.01 mg/L; Arsénico en el rango de 0.07 a 0.075 mg/L, siendo el valor guía de 0.01 mg/L; y Boro en el rango de 0.65 a 0.87 mg/L, siendo el valor guía menor a 0.3 mg/L. ",
+    
+    "agua_riego_titulo": "Agua para riego sin restricciones",
+    "agua_riego_descripcion": "Ninguno de los sitios evaluados en la Región Hidrográfica del Río Paz cumple con las características de calidad de agua para este uso, debido a valores fuera de rango, principalmente, para los parámetros de: Coliformes fecales que se encuentran dentro de un rango que va de los 3500 a 14000 de bacterias/100 ml, siendo el valor guía 1000 NMP/100 ml; Bicarbonatos en el rango de 123.81 a 150.2 mg/L,siendo el valor guía de 91.53 mg/L; Nitratos en el rango de 5.26 a 15.56 mg/L, siendo el valor guía de 5 mg/L; pH con un valor de 8.67 unidades, siendo el rango del valor guía de menor o igual a 8.4 unidades; y Boro con un valor de 0.87 mg/L, siendo el valor guía menor o igual a 0.7 mg/L",
+    
+    "agua_consumo_titulo": "Agua para consumo de especies de producción animal",
+    "agua_consumo_descripcion": "Todos los sitios evaluados en la Región Hidrográfica del Río Paz cumplen con las características de calidad de agua para este uso",
+    
+    "agua_recreativas_titulo": "Agua para actividades recreativas con contacto directo",
+    "agua_recreativas_descripcion": "De los sitios evaluados en la Región Hidrográfica del Río Paz, ninguno cumple con las características de calidad de agua para este uso, debido a valores fuera de rango para el parámetro de Coliformes fecales, que se encuentran dentro de un rango de 490 a 14000 bacterias/100 ml, siendo el valor guía 200 NMP/100 ml",
+    
+    
+    "agua_CCME_titulo": "Calidad de agua valorada a través del Índice CCME — WQI",
+    "agua_CCME_descripcion": "De los sitios evaluados en la Región Hidrográfica del Río Paz, todos presentan calidad de agua “mala”, que restringe el desarrollo de vida acuática",
+    
+    "imagen_card": "images/rio_paz/rio_paz.jpeg",
+    "imagen_1": "images/rio_paz/rio_paz.jpeg"
+  },
+  {
+    "id": 4,
+    "nombre": "Río Grande de Sonsonate",
+    "descripcion_card": "El río Grande de Sonsonate es un río Esta zona está situada en la Llanura Costera y se desplaza más de 30 kilómetros de la línea de costa hacia las estribaciones de la Cordillera Central. Está flanqueada por las elevaciones de la Cadena Costera, y limitada al sur por el Océano Pacífico en una extensión de más de 32 kilómetros.",
+    "descripcion": "El Río Grande de Sonsonate se conoce también como El Sensunapan, El Sensunapán, Rio Grande. Sus coordenadas son 13°35'54 N y 89°50'15 W en formato DMS (grados, minutes, segundos) o 13.5983 y -89.8375 (en grados decimales). ",
+    "descripcion_tabla":"A continuación, se muestra los resultados de la evaluación de calidad del agua para sitios evaluados en la Región Hidrográfica A: Río Grande de Sonsonate.",
+    
+    "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
+    "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica D, no cumplen con las características de calidad de agua para este uso, debido a valores fuera de rango, principalmente, para los parámetros de: Coliformes fecales se encuentran dentro de un rango de 70000 a los 920000 de bacterias/100 ml, siendo el valor guía 2000 NMP/100 ml; Fósforo total en el rango de 1.65 a 7.93 mg/L, siendo el valor guía menor a 0.15 mg/L; Arsénico en el rango de 0.026 a 0.044 mg/L, siendo el valor guía menor de 0.01 mg/L; Fenoles en el rango de 0.07 a 0.18 mg/L, siendo el valor guía menor o igual a 0.01 mg/L. Y, en menor proporción, el incumplimiento de los parámetros de Sólidos disueltos totales, DBO5 y Oxígeno disuelto con las guías de calidad de agua",
+    
+    "agua_riego_titulo": "Agua para riego sin restricciones",
+    "agua_riego_descripcion": "De los ocho sitios evaluados ninguno cumple con las características necesarias para calidad de agua para riego sin restricciones, debido a valores fuera de rango, principalmente, para los parámetros de: Coliformes fecales los cuales varían en un rango de los 1300 a los 920000 de bacterias/100 ml,siendo el valor guía 1000 NMP/100 ml; Bicarbonatos en el rango de 96.95 a 197.86 mg/L, siendo el valor guía de 91.53 mg/L; Nitratos en el rango de 6.94 a 18.75 mg/L,siendo el valor guía menor de 5 mg/L. Y, en menor proporción, el incumplimiento de los valores guías para los parámetros de pH y Sólidos disueltos totales.",
+    
+    "agua_consumo_titulo": "Agua para consumo de especies de producción animal",
+    "agua_consumo_descripcion": "Todos los sitios evaluados en la Región Hidrográfica del Río Grande de Sonsonate cumplen con las características de calidad de agua para este uso.",
+    
+    "agua_recreativas_titulo": "Agua para actividades recreativas con contacto directo",
+    "agua_recreativas_descripcion": "Ninguno de los sitios evaluados en la Región Hidrográfica D, cumple con las características de calidad de agua para este uso, debido a valores fuera de rango de: Coliformes fecales se encuentran dentro de un rango que va de los 1300 a los 920000 de bacterias/100 ml, siendo el valor guía menor de 200 NMP/100 ml; Aceites y grasas en el rango de 5.5 a 13.17, siendo el valor guía menor a 5 mg/L; y un valor de Oxígeno disuelto de 3.69 mg/L.",
+    
+    
+    "agua_CCME_titulo": "Calidad de agua valorada a través del Índice CCME — WQI",
+    "agua_CCME_descripcion": "De los sitios evaluados en la Región Hidrográfica D, siete presentan una calidad de agua “mala”, que restringe el desarrollo de vida acuática y, uno presenta calidad de agua “pésima”, que imposibilita el desarrollo de vida acuática.",
+    
+    "imagen_card": "images/rio_grande_sonsonate/rio_grande_sonsonate.jpeg",
+    "imagen_1": "images/rio_grande_sonsonate/rio_grande_sonsonate.jpeg"
+  },
+  {
+    "id": 6,
+    "nombre": "Río Jilboa Estero de Jaltepeque",
+    "descripcion_card": "Río Jilboa Estero de Jaltepeque. Se encuentra situado al sur de la Región de Los Nonualcos, entre los Departamentos de La Paz y San Vicente. La cuenca del Estero de Jaltepeque fue denominado como el sexto sitio Ramsar de El Salvador.",
+    "descripcion": "Río Jilboa Estero de Jaltepeque Se encuentra limitado en el extremo occidental por la cuenca baja del Río Jiboa y en el extremo oriental por la cuenca baja del Río Lempa, permitiendo la conectividad con la Laguna de Nahualapa, el Estero de Jaltepeque, la Isla el Algodón, el Área Natural Protegida Escuintla, la Isla Tasajera, El Cordoncillo, La Bocana del río Lempa y la Laguna el Talquezal.",
+    "descripcion_tabla":"A continuación, se muestra los resultados de la evaluación de calidad del agua para sitios evaluados en la Región Hidrográfica A: Río Jilboa Estero de Jaltepeque.",
+    
+    "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
+    "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica F, no cumplen con las características de calidad de agua para este uso, debido a valores fuera de rango, principalmente, para los parámetros de: Coliformes fecales que se encuentran dentro de un rango que va de los 4900 a los 490000 bacterias/100 ml, siendo el valor guía 2000 NMP/100 ml; Fósforo total en el rango de 1.24 a 10.49 mg/L, siendo el valor guía menor a 0.15 mg/L; Fenoles en el rango de 0.03 a 0.14 mg/L, siendo el valor guía de 0.01 mg/L; Arsénico en el rango de 0.015 a 0.18 mg/L, siendo el valor guía menor de 0.01 mg/L. Y, en menor frecuencia, valores fuera de las guías de calidad de agua para los parámetros de Boro, Manganeso, Cloruros, DBO5, Plomo, y Sólidos disueltos totales",
+    
+    "agua_riego_titulo": "Agua para riego sin restricciones",
+    "agua_riego_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica F, no cumplen con las características de calidad de agua para este uso, debido a valores fuera de rango, principalmente, para los parámetros de: Coliformes fecales que se encuentran dentro de un rango que va de los 4900 a los 490000 bacterias/100 ml, siendo el valor guía 2000 NMP/100 ml; Fósforo total en el rango de 1.24 a 10.49 mg/L, siendo el valor guía menor a 0.15 mg/L; Fenoles en el rango de 0.03 a 0.14 mg/L, siendo el valor guía de 0.01 mg/L; Arsénico en el rango de 0.015 a 0.18 mg/L, siendo el valor guía menor de 0.01 mg/L. Y, en menor frecuencia, valores fuera de las guías de calidad de agua para los parámetros de Boro, Manganeso, Cloruros, DBO5, Plomo, y Sólidos disueltos totales",
+    
+    "agua_consumo_titulo": "Agua para consumo de especies de producción animal",
+    "agua_consumo_descripcion": "De los once sitios evaluados en la presente región hidrográfica para consumo de especies de producción animal, un sitio es que no cumple, debido a valores fuera de rango para las guías de calidad de agua para Manganeso. ",
+    
+    "agua_recreativas_titulo": "Agua para actividades recreativas con contacto directo",
+    "agua_recreativas_descripcion": "De los sitios evaluados en la Región Hidrográfica F, ninguno cumple con las características de calidad de agua para este uso, debido a valores fuera de rango de Coliformes fecales, se encuentran dentro de un rango que va de los 1400 a 490000 bacterias/100 ml, siendo el valor guía menor de 200 NMP/100 ml; Aceites y grasas en el rango de 5.83 a 9.33 mg/L, siendo el valor guía menor a 5 mg/L; y un valor de pH alcalino de 9.37 unidades.",
+    
+    
+    "agua_CCME_titulo": "Calidad de agua valorada a través del Índice CCME — WQI",
+    "agua_CCME_descripcion": "Todos los sitios evaluados en la Región Hidrográfica F, presentan calidad de agua “mala”, que restringe el desarrollo de vida acuática.",
+    
+    "imagen_card": "images/rio_jilboa_estero_jaltepeque/rio_jilboa_estero_jaltepeque.jpeg",
+    "imagen_1": "images/rio_jilboa_estero_jaltepeque/rio_jilboa_estero_jaltepeque.jpeg"
+  },
+  {
+    "id": 8,
+    "nombre": "Río Grande de San Miguel",
+    "descripcion_card": "El río Grande de San Miguel es un río de los más importantes del oriente del país. Cuarenta y cinco municipios de los departamentos de Morazán, La Unión, San Miguel y Usulután están involucrados y tienen alguna relación con su caudal principal.",
+    "descripcion": "El Río Grande de San Miguel El río drena el sector este de El Salvador, sus afluentes son los arroyos Papalón, Jute, Miraflores, Huiscoyol, Anchila, Méndez, Ereguayquín y Yamabal",
+    "descripcion_tabla":"A continuación, se muestra los resultados de la evaluación de calidad del agua para sitios evaluados en la Región Hidrográfica A: Río Grande de San Miguel.",
+    
+    "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
+    "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica H, no cumple con las características de calidad de agua para este uso, debido a valores fuera de rango, principalmente, para los parámetros de: Coliformes fecales se encuentran dentro de un rango de 2600 a los 160 millones de bacterias/100 ml, siendo el valor guía 2000 NMP/100 ml; Fósforo total en el rango de 1.35 a 25.15 mg/L, siendo el valor guía menor a 0.15 mg/L; Arsénico en el rango de 0.024 a 0.073 mg/L, siendo el valor guía menor a 0.01 mg/L; Fenoles en el rango de 0.02 a 0.09 mg/L, siendo el valor guía de 0.01 mg/L. Adicionalmente, otros parámetros de calidad de agua, en menor frecuencia, como: Boro, DBO5, Hierro, Oxígeno disuelto y Nitrógeno amoniacal.",
+    
+    "agua_riego_titulo": "Agua para riego sin restricciones",
+    "agua_riego_descripcion": "Ninguno de los sitios evaluados cumple con las características necesarias para calidad de agua para riego sin restricciones, debido a valores fuera de rango, principalmente, para los parámetros de: Coliformes fecales, los cuales se encuentran dentro de un rango de los 2600 a los 160 millones de bacterias/100 ml, siendo el valor guía 1000 NMP/100 ml; Bicarbonatos se encuentran en el rango de 114.76 a 257.22 mg/L, siendo el valor guía de 91.53 mg/L; Nitratos en el rango de 8.08 a 15.26 mg/L, siendo el valor guía menor de 5 mg/L. Adicionalmente, otros parámetros de calidad de agua, en menor frecuencia, que no cumplen con las guías de calidad de agua como: Conductividad eléctrica, pH y Sólidos disueltos totales.",
+    
+    "agua_consumo_titulo": "Agua para consumo de especies de producción animal",
+    "agua_consumo_descripcion": "Los siete sitios evaluados solamente cumplen con las guías de calidad de agua para consumo de especies de producción animal.",
+    
+    "agua_recreativas_titulo": "Agua para actividades recreativas con contacto directo",
+    "agua_recreativas_descripcion": "De los sitios evaluados en la Región Hidrográfica H, ninguno cumple con las características de calidad de agua para este uso, debido a valores fuera de rango de: Coliformes fecales dentro de un rango que va de los 2600 a los 160 millones de bacterias/100 ml, siendo el valor guía menor de 200 NMP/100 ml; Aceites y grasas en el rango de 6.0 a 11.33 mg/L, siendo el valor guía menor o igual a 5 mg/L; y, se identifica un valor de Oxígeno disuelto de 0.08 mg/L, siendo el valor mínimo de 5 mg/L.",
+    
+    
+    "agua_CCME_titulo": "Calidad de agua valorada a través del Índice CCME — WQI",
+    "agua_CCME_descripcion": "De los sitios evaluados en la Región Hidrográfica H, seis presentan una calidad de agua “mala”, lo cual restringe el desarrollo de vida acuática y un sitio presentan calidad “pésima”, que imposibilita el desarrollo de vida acuática.",
+    
+    "imagen_card": "images/rio_grande_san_miguel/rio_grande_san_miguel.jpeg",
+    "imagen_1": "images/rio_grande_san_miguel/rio_grande_san_miguel.jpeg"
+  },
+  {
+    "id": 10,
+    "nombre": "Río Goascoran",
+    "descripcion_card": "El Río Goascoran es un río, su cuenca es compartida por Honduras y El Salvador de la siguiente manera: de su extensión de 2.613,89 kilómetros cuadrados, el 61,2% le pertenece a Honduras y el resto, 38,8% a El Salvador.",
+    "descripcion": "El Río Goascoran Por El Salvador el río pasa por trece de sus municipios y en Honduras, por dieciséis. Es una cuenca muy propensa a inundaciones.",
+    "descripcion_tabla":"A continuación, se muestra los resultados de la evaluación de calidad del agua para sitios evaluados en la Región Hidrográfica A: Río Goascoran.",
+    
+    "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
+    "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica I Río Sirama, no cumple con las características de calidad de agua para este uso, debido a valores fuera de rango para: Coliformes fecales, con un valor de 4900 bacterias/100 ml, siendo el valor guía 2000 NMP/100 ml; Arsénico de 0.032 mg/L,siendo el valor guía menor o igual 0.01 mg/L; Fósforo total de 1.06 mg/L, siendo el valor guía menor a 0.15 mg/L; Fenoles de 0.13 mg/L, siendo el valor guía menor o igual a 0.01 mg/L; y Oxígeno disuelto de 3.81 mg/L, siendo el valor guía mayor o igual a 4 mg/L.",
+    
+    "agua_riego_titulo": "Agua para riego sin restricciones",
+    "agua_riego_descripcion": "El sitio evaluado en la presente región hidrográfica no cumple con las características necesarias para calidad de agua para riego sin restricciones, debido al valor fuera de rango para Coliformes fecales de 4900 bacterias/100 ml, siendo el valor guía 1000 NMP/100 ml; y Bicarbonatos de 168.18 mg/L, siendo el valor guía menor de 91.53",
+    
+    "agua_consumo_titulo": "Agua para consumo de especies de producción animal",
+    "agua_consumo_descripcion": "El sitio evaluado en la presente región hidrográfica cumple con las guías de calidad de agua para consumo de especies de producción animal.",
+    
+    "agua_recreativas_titulo": "Agua para actividades recreativas con contacto directo",
+    "agua_recreativas_descripcion": "El sitio evaluado en la Región Hidrográfica I no cumple con las características de calidad de agua para este uso, debido a valores fuera de rango de Coliformes fecales, con un valor de 4900 bacterias/100 ml, siendo el valor guía menor de 200 NMP/100 ml; y el valor de Oxígeno disuelto de 3.81 mg/L, siendo el valor guía mayor o igual a 5 mg/L.",
+    
+    
+    "agua_CCME_titulo": "Calidad de agua valorada a través del Índice CCME — WQI",
+    "agua_CCME_descripcion": "El sitio evaluado en la Región Hidrográfica I presenta calidad de agua “mala”, lo que restringe el desarrollo de vida acuática.",
+    
+    "imagen_card": "images/rio_goascoran/rio_goascoran.jpeg",
+    "imagen_1": "images/rio_goascoran/rio_goascoran.jpeg"
   }
-  
 ]
