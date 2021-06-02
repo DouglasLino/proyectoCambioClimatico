@@ -86,6 +86,10 @@ const displayCuenca = (cuenca_hidrografica) => {
                   break;
                 case '3':
                     return `
+                    <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/rio_cara_sucia.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
+                    
+                    <h2 class="section-heading">Ubicación</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d968.6214179808618!2d-89.98590951192016!3d13.809849999391405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQ4JzM1LjUiTiA4OcKwNTknMDcuMyJX!5e0!3m2!1ses-419!2ssv!4v1622644900386!5m2!1ses-419!2ssv" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                    
                     `;
                   break;
                 case '4':
@@ -99,6 +103,11 @@ const displayCuenca = (cuenca_hidrografica) => {
                   break;
                 case '5':
                     return `
+                    <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/rio_mandinga.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
+                    
+                    <h2 class="section-heading">Ubicación</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.0617493712716!2d-89.70609168376012!3d13.531801990490141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDMxJzU0LjUiTiA4OcKwNDInMTQuMSJX!5e0!3m2!1ses-419!2ssv!4v1622646052699!5m2!1ses-419!2ssv" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
                     `;
                   break;
                 case '6':
@@ -111,6 +120,10 @@ const displayCuenca = (cuenca_hidrografica) => {
                   break;
                 case '7':
                     return `
+                    <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/bahia_de_jiquilisco.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
+
+                    <h2 class="section-heading">Ubicación</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.3006340659763!2d-88.6142370495485!3d13.26914399061534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDE2JzA4LjkiTiA4OMKwMzYnNDMuNCJX!5e0!3m2!1ses-419!2ssv!4v1622646564419!5m2!1ses-419!2ssv" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     `;
                   break;
                 case '8':
@@ -123,6 +136,10 @@ const displayCuenca = (cuenca_hidrografica) => {
                   break;
                 case '9':
                     return `
+                    <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://github.com/DouglasLino/proyectoCambioClimatico/raw/master/public/tables/rio_sirima.xlsx' width='100%' height='565px' frameborder='0'> </iframe>
+                    
+                    <h2 class="section-heading">Ubicación</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.23171609071!2d-87.81072712733616!3d13.459808994417031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDI3JzM1LjMiTiA4N8KwNDgnMzIuNiJX!5e0!3m2!1ses-419!2ssv!4v1622646785427!5m2!1ses-419!2ssv" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     `;
                   break;
                 case '10':

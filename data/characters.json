@@ -52,6 +52,32 @@
     "imagen_1": "images/rio_paz/rio_paz.jpeg"
   },
   {
+    "id": 3,
+    "nombre": "Río Cara Sucia - San Pedro ",
+    "descripcion_card": "El río Cara Sucia es un río de El Salvador. Surge en las estribaciones del Parque Nacional El Imposible y fluye hacia el oeste a través del área de Cara Sucia en la región del Departamento de Ahuachapán hasta una bahía cerca de El Zapote.",
+    "descripcion": "Rio Cara Sucia (Río Cara Sucia) es un/una corriente (class H - Hidrográfica) en Departamento de Ahuachapan (Ahuachapán), El Salvador (North America) con un código de región de Americas/Western Europe. Se encuentra a una altitud de 6 metros sobre el nivel del mar. Río Cara Sucia se conoce también como Maishtapula, Rio Cara Sucia, Río Cara Sucia.",
+    "descripcion_tabla":"A continuación, se muestra los resultados de la evaluación de calidad del agua para sitios evaluados en la Región Hidrográfica C: Río Cara Sucia - San Pedro .",
+    
+    "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
+    "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica C, no cumple con las características de calidad de agua para este uso debido a valores fuera de rango, principalmente para los parámetros de Coliformes fecales los cuales se encuentran en un rango que va de los 4900 a 92,000 bacterias/100 ml siendo el valor guía 2000 NMP/100 ml, Fósforo total en el rango de 2.02 a 3.56 mg/L siendo el valor guía menor a 0.15 mg/L, Mercurio en el rango de 0.0012 a 0.0159 mg/L siendo el valor guía menor de 0.001 mg/L.",
+    
+    "agua_riego_titulo": "Agua para riego sin restricciones",
+    "agua_riego_descripcion": "De los ocho sitios evaluados, ninguno cumple con las características de calidad de agua para este uso, debido a valores fuera de rango principalmente para los parámetros de Coliformes fecales los cuales se encuentran dentro de un rango que va de los 4900 a 92,000 de bacterias/100 ml, siendo el valor guía 1000 NMP/100 ml; Bicarbonatos en el rango de 91.76 a 103.48 mg/l siendo el valor guía de 91.53 mg/l y pH en el rango de 8.44 a 8.80 unidades siendo el valor guía menor de 8.4 unidades.",
+    
+    "agua_consumo_titulo": "Agua para consumo de especies de producción animal",
+    "agua_consumo_descripcion": "De los ocho sitios evaluados solamente un sitio no cumple con la calidad de agua para consumo de especies de producción animal, debido a un valor de 0.0159 mg/L siendo el valor guía menor de 0.01 mg/L.",
+    
+    "agua_recreativas_titulo": "Agua para actividades recreativas con contacto directo",
+    "agua_recreativas_descripcion": "De los ocho sitios evaluados en la Región Hidrográfica C, ninguno cumple con las características de calidad de agua para este uso, debido a valores fuera de rango de Coliformes fecales los cuales se encuentran dentro de un rango que va de los 2300 a 92,000 bacterias/100 ml siendo el valor guía 200 NMP/100 ml y, Aceites y grasas en el rango de 5.5 a 8.17 mg/L siendo el valor guía menor de 5 mg/L.",
+    
+    
+    "agua_CCME_titulo": "Calidad de agua valorada a través del Índice CCME — WQI",
+    "agua_CCME_descripcion": "De los sitios evaluados en la Región Hidrográfica C, cinco de ocho sitios presentan calidad de agua buena, que facilita el desarrollo de vida acuática y, tres sitios presentan una calidad de agua regular, que limita el desarrollo de vida acuática.",
+    
+    "imagen_card": "images/rio_cara_sucia/rio_cara_sucia.jpg",
+    "imagen_1": "images/rio_cara_sucia/rio_cara_sucia.jpg"
+  },
+  {
     "id": 4,
     "nombre": "Río Grande de Sonsonate",
     "descripcion_card": "El río Grande de Sonsonate es un río Esta zona está situada en la Llanura Costera y se desplaza más de 30 kilómetros de la línea de costa hacia las estribaciones de la Cordillera Central. Está flanqueada por las elevaciones de la Cadena Costera, y limitada al sur por el Océano Pacífico en una extensión de más de 32 kilómetros.",
@@ -77,6 +103,33 @@
     "imagen_card": "images/rio_grande_sonsonate/rio_grande_sonsonate.jpeg",
     "imagen_1": "images/rio_grande_sonsonate/rio_grande_sonsonate.jpeg"
   },
+  {
+    "id": 5,
+    "nombre": "Río Mandingas-Comalapa ",
+    "descripcion_card": "Río Mandinga es un arroyo en El Salvador y tiene una altitud de 7 metros. Río Mandinga está situada al norte de Barra Salada, circa de Río Pululuya.",
+    "descripcion": "Rio Mandinga (Río Mandinga) es un/una corriente (class H - Hidrográfica) en Departamento de Sonsonate (Sonsonate), El Salvador (North America) con un código de región de Americas/Western Europe. Se encuentra a una altitud de 11 metros sobre el nivel del mar. Río Mandinga se conoce también como Rio Mandinga, Rio Mandingo, Río Mandinga, Río Mandingo.",
+    "descripcion_tabla":"A continuación, se muestra los resultados de la evaluación de calidad del agua para sitios evaluados en la Región Hidrográfica A: Río Mandangas-Comalapa .",
+    
+    "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
+    "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica E no cumplen con las características de calidad de agua para este uso, debido a valores fuera de rango principalmente para los parámetros de Coliformes fecales los cuales se encuentran dentro de un rango que va de los 7000 a los 16 millones bacterias/100 ml siendo el valor guía 2000 NMP/100 ml, Fósforo total en el rango de 2.33 a 14.80 mg/L siendo el valor guía menor a 0.15 mg/L y en menor frecuencia valores fuera de las guías de calidad de agua para los parámetros de; Arsénico, Nitratos, DBO5, Fenoles, Mercurio y Oxígeno disuelto. ",
+    
+    "agua_riego_titulo": "Agua para riego sin restricciones",
+    "agua_riego_descripcion": "De los sitios evaluados ninguno cumple con las características necesarias para calidad de agua para riego sin restricciones, debido a valores fuera de rango principalmente para los parámetros de Coliformes fecales los cuales se encuentran dentro de un rango que va de los 7000 a los 16 millones de bacterias/100 ml siendo el valor guía 1000 NMP/100 ml, Bicarbonatos en el rango de 91.76 a 251.86 mg/L siendo el valor guía de 91.53 mg/L y en menor frecuencia valores fuera de rango de las guías de calidad de agua de Manganeso, Conductividad eléctrica, Nitratos pH y Sólidos disueltos totales",
+    
+    "agua_consumo_titulo": "Agua para consumo de especies de producción animal",
+    "agua_consumo_descripcion": "De todos los sitios evaluados, solamente uno no cumple con la calidad de agua para consumo de especies de producción animal, debido a un valor de Manganeso de 0.391 mg/L siendo el valor guía menor de 0.05 mg/L.",
+    
+    "agua_recreativas_titulo": "Agua para actividades recreativas con contacto directo",
+    "agua_recreativas_descripcion": "De los doce sitios evaluados en la Región Hidrográfica E, ninguno cumple con las características de calidad de agua para este uso, debido a valores fuera de rango de Coliformes fecales los cuales se encuentran dentro de un rango que va de los 7000 a 16 millones de bacterias/100 ml siendo el valor guía menor de 200 NMP/100 ml y valores fuera de las guías de calidad de agua para Oxígeno disuelto y, Aceites y Grasas.",
+    
+    
+    "agua_CCME_titulo": "Calidad de agua valorada a través de la aplicación del Índice de Calidad del Agua (ICA)",
+    "agua_CCME_descripcion": "De los sitios evaluados en la Región Hidrográfica E, solamente un sitio presenta calidad de agua buena lo que facilita el desarrollo de vida acuática, diez sitios presentan una calidad de agua regular lo cual limita el desarrollo de vida acuática y un sitio presenta calidad mala lo cual restringe el desarrollo de vida acuática.",
+    
+    "imagen_card": "images/rio_mandingas/rio_mandingas.jpg",
+    "imagen_1": "images/rio_mandingas/rio_mandingas.jpg"
+  }
+  ,
   {
     "id": 6,
     "nombre": "Río Jilboa Estero de Jaltepeque",
@@ -104,6 +157,32 @@
     "imagen_1": "images/rio_jilboa_estero_jaltepeque/rio_jilboa_estero_jaltepeque.jpeg"
   },
   {
+    "id": 7,
+    "nombre": "Bahía de Jiquilisco",
+    "descripcion_card": "Bahia de Jiquilisco. Perteneciente al departamento de Usulután, El Salvador. Forma parte de un sistema de paisajes ubicado en la planicie costera localizada en el extremo sur del país.",
+    "descripcion": "Bahia de Jiquilisco Se encuentra ubicada en la región oriental de El Salvador. El territorio de la Babía de Jiquilisco pertenece al departamento de Usulután y se adscribe política y administrativamente a los municipios de Jiquilisco, Puerto El Triunfo, Usulután, San Dionisio, Concepción Batres y Jucuaran",
+    "descripcion_tabla":"A continuación, se muestra los resultados de la evaluación de calidad del agua para sitios evaluados en la Región Hidrográfica A: Bahía de Jiquilisco.",
+    
+    "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
+    "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica G, no cumplen con las características de calidad de agua para este uso, debido a valores fuera de rango principalmente para los parámetros de Coliformes fecales los cuales se encuentran dentro de un rango que va de los 2100 a los 22 millones de bacterias/100 ml siendo el valor guía 2000 NMP/100 ml, Fósforo total en el rango de 2.50 a 13.65 mg/L siendo el valor guía menor a 0.15 mg/L, DBO5 en el rango de 4.09 a 20.26 mg/L siendo el valor guía 4 mg/L; Mercurio en el rango de 0.0012 a 0.0033 mg/L siendo el valor guía menor de 0.001 mg/L adicionalmente otros parámetros de calidad de agua en menor frecuencia como: Fenoles, Nitrógeno amoniacal y Oxígeno disuelto.",
+    
+    "agua_riego_titulo": "Agua para riego sin restricciones",
+    "agua_riego_descripcion": "Ninguno de los sitios evaluados cumple con las características necesarias para calidad de agua para riego sin restricciones, debido a valores fuera de rango principalmente para los parámetros de Coliformes fecales los cuales se encuentran dentro de un rango de los 2100 a los 22 millones de bacterias/100 ml siendo el valor guía 1000 NMP/100 ml, Bicarbonatos en el rango de 132.76 a 181.57 mg/L siendo el valor guía de 91.53 mg/L, Nitratos en el rango de 11.692 a 23.641 mg/L siendo el valor guía menor de 5 mg/L, Conductividad eléctrica en el rango de 877 a 939 µS/cm siendo el valor guía menor a 700 µS/cm y Sólidos disueltos totales en el rango de 562 a 601 mg/L siendo el valor guía menor a 450 mg/L.",
+    
+    "agua_consumo_titulo": "Agua para consumo de especies de producción animal",
+    "agua_consumo_descripcion": "Todos los sitios evaluados en la presente región hidrográfica cumplen con la calidad de agua para consumo de especies de producción animal. ",
+    
+    "agua_recreativas_titulo": "Agua para actividades recreativas con contacto directo",
+    "agua_recreativas_descripcion": "De los sitios evaluados en la Región Hidrográfica G, ninguno cumple con las características de calidad de agua para este uso, debido a valores fuera de rango de Coliformes fecales los cuales se encuentran dentro de un rango que va de los 2100 a los 22 millones de bacterias bacterias/100 ml siendo el valor guía menor de 200 NMP/100 ml y valores fuera de las guías de calidad de agua para: Oxígeno disuelto, Aceites y Grasas.",
+    
+    
+    "agua_CCME_titulo": "Calidad de agua valorada a través de la aplicación del Índice de Calidad del Agua general (ICA)",
+    "agua_CCME_descripcion": "De los sitios evaluados en la Región Hidrográfica G cuatro de cinco sitios presentan calidad de agua regular lo cual limita el desarrollo de vida acuática y un sitio presenta calidad mala lo cual restringe el desarrollo de vida acuática.    ",
+    
+    "imagen_card": "images/bahia_de_jiquilisco/bahia_de_jiquilisco.jpg",
+    "imagen_1": "images/bahia_de_jiquilisco/bahia_de_jiquilisco.jpg"
+  },
+  {
     "id": 8,
     "nombre": "Río Grande de San Miguel",
     "descripcion_card": "El río Grande de San Miguel es un río de los más importantes del oriente del país. Cuarenta y cinco municipios de los departamentos de Morazán, La Unión, San Miguel y Usulután están involucrados y tienen alguna relación con su caudal principal.",
@@ -128,6 +207,33 @@
     
     "imagen_card": "images/rio_grande_san_miguel/rio_grande_san_miguel.jpeg",
     "imagen_1": "images/rio_grande_san_miguel/rio_grande_san_miguel.jpeg"
+  },
+  {
+    "id": 9,
+    "nombre": "Río Sirama",
+    "descripcion_card": "Río Sirama es un arroyo en Departamento de La Unión y tiene una altitud de 8 metros. Río Sirama está situada al norte de San Cayetano, circa de Quebrada El Papalón.",
+    "descripcion": "Rio Sirama (Río Sirama) es un/una corriente (class H - Hidrográfica) en Departamento de La Union (La Unión), El Salvador (North America) con un código de región de Americas/Western Europe. Se encuentra a una altitud de 2 metros sobre el nivel del mar. Río Sirama se conoce también como Rio Amatillo, Rio El Amatillo, Rio Sirama, Río Amatillo, Río El Amatillo, Río Sirama.",
+    "descripcion_tabla":"A continuación, se muestra los resultados de la evaluación de calidad del agua para sitios evaluados en la Región Hidrográfica A: Río Sirama.",
+    
+    "agua_cruda_titulo" : "Agua cruda para potabilizar por métodos convencionales",
+    "agua_cruda_descripcion": "La calidad de las aguas superficiales de la Región Hidrográfica I Río Sirama, no cumple con las características de calidad de agua para este uso, debido a valores fuera de rango para Coliformes fecales con un valor de 92,000 bacterias/100 ml siendo el valor guía 2000 NMP/100 ml y un valor de Fósforo total de 3.08 mg/L siendo el valor guía menor a 0.15 mg/L ",
+
+    
+    "agua_riego_titulo": "Agua para riego sin restricciones",
+    "agua_riego_descripcion": "El sitio evaluado en la presente región hidrográfica no cumple con las características necesarias para calidad de agua para riego sin restricciones, debido al valor fuera de rango para Coliformes fecales de 92,000 bacterias/100 ml siendo el valor guía 1000 NMP/100 ml, Bicarbonatos de 181.57 mg/L siendo el valor guía menor de 91.53, Conductividad de 815 µS/cm siendo el valor guía menor de 700 µS/cm y Sólidos disueltos totales de 521 mg/L siendo el valor guía menor de 450 mg/L",
+    
+    "agua_consumo_titulo": "Agua para consumo de especies de producción animal",
+    "agua_consumo_descripcion": "Los siete sitios evaluados solamente cumplen con las guías de calidad de agua para consumo de especies de producción animal.",
+    
+    "agua_recreativas_titulo": "Agua para actividades recreativas con contacto directo",
+    "agua_recreativas_descripcion": "El sitio evaluado en la Región Hidrográfica I no cumple con las características de calidad de agua para este uso, debido a valores fuera de rango de Coliformes fecales con un valor de 92,000 bacterias/100 ml siendo el valor guía menor de 200 NMP/100 ml y el valor de Oxígeno disuelto de 4.91 mg/L siendo el valor guía de 5 mg/L.",
+    
+    
+    "agua_CCME_titulo": "Calidad de agua valorada a través de la aplicación del Índice de Calidad del Agua general (ICA)",
+    "agua_CCME_descripcion": "El sitio evaluado en la Región Hidrográfica I presenta calidad de agua regular que limita el desarrollo de vida acuática.",
+    
+    "imagen_card": "images/rio_sirama/rio_sirama.jpg",
+    "imagen_1": "images/rio_sirama/rio_sirama.jpg"
   },
   {
     "id": 10,
