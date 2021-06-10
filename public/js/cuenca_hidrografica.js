@@ -2,8 +2,8 @@
 const regionHidrografica = document.getElementById('regionHidrografica');
 let cuenca = [];
 var id = localStorage.getItem('id');
-var url = 'https://apicambioclimatico.herokuapp.com/api/region_hidrografica/';
-// var url = 'http://localhost:5000/api/region_hidrografica/';
+// var url = 'https://apicambioclimatico.herokuapp.com/api/region_hidrografica/';
+var url = 'api/region_hidrografica/';
 var total = url.concat(id);
 
 
