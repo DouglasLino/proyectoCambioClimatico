@@ -38,7 +38,10 @@ const displayCuenca = (cuenca_hidrografica) => {
                 <h2 class="section-heading">${region.agua_CCME_titulo}</h2>
                 <p>${region.agua_CCME_descripcion}</p>
 
-                <div container><img class="img-fluid p-2 mx-auto d-block" style="width:60%" src="${region.imagen_1}"></img></div>
+                <div container><img class="img-fluid p-2 mx-auto d-block" style="width:80%" src="${region.imagen_1}"></img></div>
+                
+                <h2 class="section-heading"></h2>
+                <p class="text-center" >Puedes ver el informe completo haciendo clic <a href="https://cidoc.marn.gob.sv/documentos/informe-de-calidad-de-agua-de-los-rios-de-el-salvador-ano-2020/" target="_blank">aquí</a>.</p>
 
         `;
         })
